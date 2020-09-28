@@ -1,19 +1,27 @@
-package com.patrick.bootcamp.entities;
+package com.patrick.bootcamp.dscatalog.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 
+@Entity
+@Table(name = "tb_category")
 public class Category implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
-	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	
-	private List<Product> products = new ArrayList<>();
+	//private List<Product> products = new ArrayList<>();
 	
 	public Category() {
 		
@@ -40,13 +48,11 @@ public class Category implements Serializable{
 		this.name = name;
 	}
 
-	public List<Product> getProducts() {
-		return products;
-	}
-	
-	public void setProducts(List<Product> products) {
-		this.products = products;
-	}
+	/*
+	 * public List<Product> getProducts() { return products; }
+	 * 
+	 * public void setProducts(List<Product> products) { this.products = products; }
+	 */
 	
 	@Override
 	public int hashCode() {
@@ -73,9 +79,5 @@ public class Category implements Serializable{
 		return true;
 	}
 
-	
-	
-	
 
-	
 }
