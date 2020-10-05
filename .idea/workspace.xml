@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="562ece73-8010-4e27-bc42-597d0d29151d" name="Default Changelist" comment="" />
+    <list default="true" id="562ece73-8010-4e27-bc42-597d0d29151d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,5 +45,17 @@
       <screen x="0" y="0" width="1920" height="720" />
     </state>
     <state x="418" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.720/1920.0.1366.768@0.0.1920.720" timestamp="1601555239424" />
+    <state x="449" y="0" key="SettingsEditor" timestamp="1601648507754">
+      <screen x="0" y="0" width="1920" height="720" />
+    </state>
+    <state x="449" y="0" key="SettingsEditor/0.0.1920.720/1920.0.1366.768@0.0.1920.720" timestamp="1601648507754" />
+    <state x="269" y="121" width="1372" height="599" key="new project wizard" timestamp="1601648375005">
+      <screen x="0" y="0" width="1920" height="720" />
+    </state>
+    <state x="269" y="121" width="1372" height="599" key="new project wizard/0.0.1920.720/1920.0.1366.768@0.0.1920.720" timestamp="1601648375005" />
+    <state x="623" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1601648032924">
+      <screen x="0" y="0" width="1920" height="720" />
+    </state>
+    <state x="623" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1920.720/1920.0.1366.768@0.0.1920.720" timestamp="1601648032924" />
   </component>
 </project>
